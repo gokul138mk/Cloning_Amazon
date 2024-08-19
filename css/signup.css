@@ -1,0 +1,120 @@
+body {
+    background-image: url('../');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  font-family: Raleway, sans-serif;
+  color: #666;
+}
+
+.login {
+  margin: 20px auto;
+  padding: 40px 50px;
+  max-width: 300px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 1px 1px 1px #666;
+}
+  .login input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 14px 12px;
+    font-size: 16px;
+    border-radius: 0.75rem;
+    border-color: #0000005d; 
+    font-family: Raleway, sans-serif;
+  }
+
+.login input[type=number],
+[type=email] {
+  border: 1px solid #c0c0c0;
+  transition: .2s;
+}
+
+.login input[type=text]:hover {
+  border-color: green;
+  outline: none;
+  transition: all .2s ease-in-out;
+} 
+
+.login input[type=submit] {
+  border: none;
+  background: #EF5350;
+  color: white;
+  font-weight: bold;  
+  transition: 0.2s;
+  margin: 20px 0px;
+}
+
+.login input[type=submit]:hover {
+  background: green;  
+}
+
+  .login h2 {
+    margin: 20px 0 0; 
+    color: #000000;
+    font-size: 30px;
+  }
+
+.login p {
+  margin-bottom: 40px;
+}
+
+.links {
+  display: table;
+  width: 100%;  
+  box-sizing: border-box;
+  border-top: 1px solid #c0c0c0;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: table-cell;
+  padding-top:0%;
+}
+
+.home:first-child {
+  text-align: left;
+}
+
+.links a:last-child {
+  text-align: right;
+}
+
+  .login h2,
+  .login p,
+  .login a {
+    text-align: center;    
+  }
+
+.login a {
+  text-decoration: none;  
+  font-size: .9em;
+}
+
+.login a:visited {
+  color: rgb(0, 0, 0);
+
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+.continue-btn{
+    background-color: yellow;
+    color: #000000;
+    border: yellow ;
+    border-radius: 0.75rem;
+    height: 25px;
+    width: 130px;
+    margin-left: 75px;
+}
+
+.continue-btn:hover{
+    background-color: rgb(224, 224, 30);
+}
