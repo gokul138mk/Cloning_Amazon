@@ -1,12 +1,12 @@
 body {
-    background-image: url('../');
+    background-image: url(../index.page\ img/bg2.jpg);
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
   font-family: Raleway, sans-serif;
-  color: #666;
+  color: #272626;
 }
 
 .login {
@@ -14,9 +14,12 @@ body {
   padding: 40px 50px;
   max-width: 300px;
   border-radius: 5px;
-  background: #fff;
-  box-shadow: 1px 1px 1px #666;
+  border: 2px solid #221a1a1c;
+  background: #fffffff3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
+
+
   .login input {
     width: 100%;
     display: block;
@@ -25,13 +28,13 @@ body {
     padding: 14px 12px;
     font-size: 16px;
     border-radius: 0.75rem;
-    border-color: #0000005d; 
+    border-color: #000000a7; 
     font-family: Raleway, sans-serif;
   }
 
 .login input[type=number],
 [type=email] {
-  border: 1px solid #c0c0c0;
+  border: 1px solid #070707;
   transition: .2s;
 }
 
@@ -56,7 +59,7 @@ body {
 
   .login h2 {
     margin: 20px 0 0; 
-    color: #000000;
+    color: #000000d1;
     font-size: 30px;
   }
 
@@ -88,7 +91,8 @@ body {
   .login h2,
   .login p,
   .login a {
-    text-align: center;    
+    text-align: center;   
+    text-decoration: none; 
   }
 
 .login a {

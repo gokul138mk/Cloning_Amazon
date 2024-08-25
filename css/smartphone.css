@@ -622,6 +622,10 @@ body{
   
 }
 
+.carousel_slide{
+    width: 1126px;
+}
+
 
 /* product card starting*/
 .product-card {
@@ -698,13 +702,24 @@ body{
 }
 
 
+@media (max-width: 468px) {
+    .carousel_slide{
+        width: 468px;
+    }
+    
+    .banner1 img{
+        width: 468px;
+        height:auto;
 
+    
+    }
+}
 
 
 @media (max-width: 768px) {
 
     .card4 {
-        background:rgb(252, 252, 252);
+        background:rgb(255, 255, 255);
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         overflow: hidden;
@@ -743,7 +758,7 @@ body{
     }
 
     .banner1 img{
-        width: 485px;
+        width: 470px;
         height:auto;
 
     
@@ -753,6 +768,9 @@ body{
         flex: 1 1 calc(10px - 10px);
         max-width: calc(20px - 20px);
         height: calc(50px - 20px);
+    }
+    .carousel_slide{
+        width:468px;
     }
 }
 
