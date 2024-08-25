@@ -1,12 +1,11 @@
 body {
-    background-image: url('../');
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  background-image: url(../index.page\ img/bg2.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Raleway, sans-serif;
-  color: #666;
+  color: #272626;
 }
 
 .login {
@@ -14,51 +13,53 @@ body {
   padding: 40px 50px;
   max-width: 300px;
   border-radius: 5px;
-  background: #fff;
-  box-shadow: 1px 1px 1px #666;
+  border: 1px solid #221a1a7a;
+  background: #fffffff3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-  .login input {
-    width: 100%;
-    display: block;
-    box-sizing: border-box;
-    margin: 10px 0;
-    padding: 14px 12px;
-    font-size: 16px;
-    border-radius: 0.75rem;
-    border-color: #0000005d; 
-    font-family: Raleway, sans-serif;
-  }
+
+.login input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 14px 12px;
+  font-size: 16px;
+  border-radius: 0.75rem;
+  border-color: #000000a7;
+  font-family: Raleway, sans-serif;
+}
 
 .login input[type=number],
-[type=email] {
-  border: 1px solid #c0c0c0;
-  transition: .2s;
+.login input[type=email] {
+  border: 1px solid #070707;
+  transition: 0.2s;
 }
 
 .login input[type=text]:hover {
   border-color: green;
   outline: none;
-  transition: all .2s ease-in-out;
-} 
+  transition: all 0.2s ease-in-out;
+}
 
 .login input[type=submit] {
   border: none;
   background: #EF5350;
   color: white;
-  font-weight: bold;  
+  font-weight: bold;
   transition: 0.2s;
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 .login input[type=submit]:hover {
-  background: green;  
+  background: green;
 }
 
-  .login h2 {
-    margin: 20px 0 0; 
-    color: #000000;
-    font-size: 30px;
-  }
+.login h2 {
+  margin: 20px 0 0;
+  color: #000000d1;
+  font-size: 30px;
+}
 
 .login p {
   margin-bottom: 40px;
@@ -66,7 +67,7 @@ body {
 
 .links {
   display: table;
-  width: 100%;  
+  width: 100%;
   box-sizing: border-box;
   border-top: 1px solid #c0c0c0;
   margin-bottom: 10px;
@@ -74,7 +75,7 @@ body {
 
 .links a {
   display: table-cell;
-  padding-top:0%;
+  padding-top: 0;
 }
 
 .home:first-child {
@@ -85,36 +86,64 @@ body {
   text-align: right;
 }
 
-  .login h2,
-  .login p,
-  .login a {
-    text-align: center;    
-  }
+.login h2,
+.login p,
+.login a {
+  text-align: center;
+  text-decoration: none;
+}
 
 .login a {
-  text-decoration: none;  
-  font-size: .9em;
+  text-decoration: none;
+  font-size: 0.9em;
 }
 
 .login a:visited {
   color: rgb(0, 0, 0);
-
 }
 
 .login a:hover {
   text-decoration: underline;
 }
 
-.continue-btn{
-    background-color: yellow;
-    color: #000000;
-    border: yellow ;
-    border-radius: 0.75rem;
-    height: 25px;
-    width: 130px;
-    margin-left: 75px;
+.continue-btn {
+  background-color: yellow;
+  color: #000000;
+  border: yellow;
+  border-radius: 0.75rem;
+  height: 25px;
+  width: 130px;
+  margin-left: 75px;
 }
 
-.continue-btn:hover{
-    background-color: rgb(224, 224, 30);
+.continue-btn:hover {
+  background-color: rgb(224, 224, 30);
+}
+
+.end-details {
+  padding: 20px;
+  height: auto;
+  width: 1469px;
+  color: white;
+  background-color: #232f3e;
+  text-align: center;
+}
+
+.end-details a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.end-details a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .end-details {
+      padding: 15px;
+      width: 468px;
+      color: #ddd;
+      background-color: #232f3e;
+      text-align: center;
+  }
 }
